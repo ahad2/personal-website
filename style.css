@@ -1,10 +1,17 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
     font-size: 50px;
     
+}
+h2{
+    font-size: 40PX;
+}
+p{
+    color:dimgray;
 }
 .name{
     font-size: 60px;
@@ -18,5 +25,62 @@ h1{
 
 }
 .half-width img{
-    width: 100%;
+    width: 50%;
+}
+.header{
+    
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(204, 50, 171);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.biography{
+    
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;}
+.work{
+    text-align: center;
+    background-image: url("images/latest-work-bg.png") ;
+    background-position: right;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: none;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .client{
+      text-align: center;
+  }
+ .message{
+     text-align: center;
+     background-color: rgb(225, 105, 255);
+     background-position-x: center;
+     box-sizing: border-box;
+     box-sizing: content-box;     
+     
+ }
+
+footer p{
+   text-align: center;
+   background-image: url("images/footer-bg.png") ;
+   background-position: center;
 }
